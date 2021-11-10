@@ -1,0 +1,253 @@
+---
+title: "Vorlesung"
+subtitle: "Qualitative und Quantitative Forschungsmethoden - M12A PdK"
+author: "Andre Epp & Samuel Merk"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      navigation:
+        scroll: false
+        click: false
+        touch: true
+editor_options: 
+  chunk_output_type: inline
+---
+layout: true
+background-image: url(https://live.staticflickr.com/65535/50973602108_8fce3f8f28_k.jpg)
+background-size: cover
+
+<head>
+<script src="https://kit.fontawesome.com/994a28441d.js" crossorigin="anonymous"></script>
+</head>
+
+<!--<div class="my-footer"><span>Folien CC-BY verfügbar unter https://atelier-phka-merk-2020.netlify.app</span></div> --> 
+
+---
+
+name: title
+class: center, middle, hide_logo
+<!--
+<style>
+.remark-slide-number {
+  font-size: 10pt;
+  margin-bottom: -11.6px;
+  margin-right: 10px;
+  color: red; /* white */
+  opacity: 0; /* default: 0.5 */
+}
+</style>
+-->
+
+```{r xaringan-themer, echo=F, warning=FALSE}
+library(xaringanthemer)
+library(fontawesome)
+library(xaringanExtra)
+htmltools::tagList(rmarkdown::html_dependency_font_awesome()) 
+
+extra_css <- list(
+   ".timevis.html-widget .vis-background .vis-minor.vis-odd" = 
+        list("background" = "#8CD00030"),
+   ".vis-text" = list("color" = "#ffffff !important"),
+   ".vis-timeline" = list("border" = "transparent"),
+   ".vis-item" = list("border-color" = "#8CD000", 
+                      "background-color" = "#8CD000", 
+                      "color" = "#ffffff !important"),
+   ".vis-current-time" = list("background-color" = "#8CD00000"),
+  ".cit"  = list("font-size" = "70%",
+                 "color" = "#6AEE3E90"),
+  ".em05" = list("font-size" ="0.5em"),
+  ".em06" = list("font-size" ="0.6em"),
+  ".em07" = list("font-size" ="0.7em"),
+  ".em08" = list("font-size" ="0.8em"),
+  ".em09" = list("font-size" ="0.9em"),
+  ".em11" = list("font-size" ="1.1em"),
+  ".em12" = list("font-size" ="1.2em"),
+  ".em13" = list("font-size" ="1.3em"),
+  ".em14" = list("font-size" ="1.4em"),
+  ".em15" = list("font-size" ="1.5em"),
+  ".bold" = list("font-weight" = "bold"),
+  ".large" = list("font-size" = "160%"),
+  ".vertmiddle" = list("vertical-align" ="middle"),
+  #".lh15" = list("line-height" =  "1.5"),
+  ".li" = list("line-height" =  "1.5",
+               "font-size" = "160%",
+               "font-weight" = "bold"),
+  ".phgreen" = list("color" = "#50B32E"),
+  ".phgreenlight" = list("color" = "#62DC3A"),
+  ".my-footer" = list("background-color" = "#1a1917",
+                      "position" = "absolute",
+                      "bottom" = "0px",
+                      "left" = "0px",
+                      "height" = "20px",
+                      "width" = "100%"),
+  ".my-footer span" = list("font-size" = "10pt", 
+                           "color" = "#F7F8FA",
+                           "position" = "absolute",
+                           "left" = "15px",
+                           "bottom" = "2px"),
+  #".remark-slide-number" = list("bottom" = "18px"),
+  ".li" = list("line-height" =  "4"),
+  ".scroll-box-18" = list("height" ="18em",
+                           "overflow-y" = "scroll"),
+  ".scroll-box-23" = list("height" ="23em",
+                           "overflow-y" = "scroll"),
+  ".hscroll-box-30" = list("width" ="23em",
+                           "overflow-x" = "scroll"))
+
+style_mono_accent(
+  text_color = "#ffffff",
+  base_color           = "#ffffff",
+  header_font_google   = google_font("Roboto", "700"),
+  text_font_google     = google_font("Roboto", "500"),
+  code_font_google     = google_font("Droid Mono"),
+  extra_css = extra_css,
+  inverse_background_color = "#ffffff",
+  inverse_text_color = "#000000",
+  link_color = "#6AEE3E"
+)
+
+use_logo(
+  image_url = "https://live.staticflickr.com/65535/50974533397_9ac99f9a48_o.png",
+  width = "180px",
+  position = css_position(top = "1.5em", right = "1.5em")
+)
+
+use_editable(expires = 1)
+```
+
+
+# .white[Vorlesung]
+
+.em14[<i class="fas fa-microscope fa-5x"></i>]
+
+### .white[Einführung in qualitative und quantitative Forschungsmethoden - M12A PdK]
+
+<img style="vertical-align:middle" src="https://live.staticflickr.com/65535/51100620932_e7ccc92abd_o.png", width="70px">  &nbsp;&nbsp;&nbsp;&nbsp;
+<img style="vertical-align:middle" src="https://imagizer.imageshack.com/img922/8876/bipedm.png", width="70px">
+
+.em14[.white[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;André Epp | Samuel Merk]]  
+
+---
+class: middle, center
+# Heutige Vorlesung
+
+--
+.large[Wiederholung: Studienarten, Studiendesigns]  
+&nbsp;  
+
+--
+.large[Wiederholung: Wissenschaftliche Gütekriterien]  
+&nbsp;  
+
+--
+.large[Übung: Wissenschaftliche Gütekriterien]
+
+---
+## Wo stehen wir im Semesterverlauf?
+<iframe style="width:1000px;height:450px;border: 1px
+solid black" src="https://app.wisemapping.com/c/maps/1210585/embed?zoom=1"> </iframe>
+
+
+---
+class: hide_logo
+
+## Studienarten
+.em15[
+* Empirische, theoretische & methodische Studien
+* Primär-, Sekundär-, Meta-, Metametastudien
+* Deskriptive, explanative, explorative Studien
+* Messwiederholte Studie, querschnittliche Studie
+* Loborstudie, Feldstudie
+* Experiment, Quasi- und Nicht-Experiment]
+
+---
+class: hide_logo
+# Kriterien der wissenschaftlichen Qualität  
+.em15[
+* Relevanz
+* Ethische Strenge
+* Methodische Strenge
+    * Konstruktvalidität
+    * Interne Validität
+    * Externe Validität
+    * Statistische Validität
+* Präsentationsqualität  
+]
+
+
+---
+## Definition: Interne Validität
+> Eine Studie - bzw. genauer - die aus ihr gewonnenen Erkenntnisse, gelten als intern valide, wenn die untersuchten Variablenzusammenhänge mit hoher Sicherheit .pgl[als kausale Ursache-Wirkungs-Relationen zu interpretieren sind]. .cit[Döring & Bortz, 2016]
+
+## Steigerung der internen Validität durch
+* Größere Stichprobe
+* Experimentelle Studiendesigns
+* Längsschnittliche Studiendesigns
+* Matching Studien
+
+
+---
+.em089[
+### Definition: Externe Validität
+> Eine Studie – bzw. genauer: die aus ihr gewonnenen Erkenntnisse – gelten in dem Maße als extern valide, wie sich .pgl[die Ergebnisse] auf andere Orte, Zeiten, Operationalisierungen der abhängigen und unabhängigen Variablen oder auf andere Personen als die konkret untersuchten .pgl[verallgemeinern lassen]. .cit[Döring & Bortz, 2016]
+
+### Steigerung der externen Validität durch
+* Größere Stichprobe
+* Feldstudien
+* Längsschnittliche Studiendesigns
+* Repräsentative Stichproben
+* Metaanalysen
+* Multiple Operationalisierungen
+]
+
+
+---
+# Ihre Fragen <i class="far fa-question-circle"></i>
+.em13[Stellen Sie Ihre _inhaltlichen_ Fragen zu den Folien oder den bereits bearbeiteten Aufgaben unter https://bit.ly/merk009 (auf »Q&A« klicken). Wurde Ihre Frage schon gestellt voten Sie die Fragen Ihrer Kommiliton*in hoch.]
+
+&nbsp;<br>
+
+```{r, out.width="30%", fig.align='center', echo = F, message = F}
+library(qrencoder)
+par(mar=c(0,0,0,0))
+image(qrencode_raster("https://bit.ly/merk013"), 
+      asp=1, col=c("#000000", "#62DC3A"), axes=FALSE, 
+      xlab="", ylab="", bg = 'transparent')
+```
+
+---
+## 2 geschlossene Aufgaben: 
+.em13[Bearbeiten Sie die MC-Aufgabe unter https://bit.ly/merk013 (auf »Fragen« klicken)]
+
+&nbsp;<br>
+
+```{r, out.width="30%", fig.align='center', echo = F, message = F}
+library(qrencoder)
+par(mar=c(0,0,0,0))
+image(qrencode_raster("https://bit.ly/merk013"), 
+      asp=1, col=c("#000000", "#62DC3A"), axes=FALSE, 
+      xlab="", ylab="", bg = 'transparent')
+```
+
+
+---
+## Offene Aufgabe
+.em12[Screenen Sie die auf moodle hinterlegte Publikation   
+.phgreen[Schmidt, M. F. H., Butler, L. P., Heinz, J., & Tomasello, M. (2016). Young Children See a Single Action and Infer a Social Norm: Promiscuous Normativity in 3-Year-Olds. *Psychological Science, 27*(10), 1360–1370. https://doi.org/10.1177/0956797616661182]
+und entscheiden Sie inwiefern Sie die Studie als
+
+* Empirische, theoretische oder methodische Studie,
+* als Primär-, Sekundär-, Meta- oder Metametastudie,
+* als Deskriptive, explanative oder explorative Studie,
+* als Messwiederholte Studie oder querschnittliche Studie,
+* als Loborstudie oder Feldstudie,
+* als Experiment oder Quasi- oder Nicht-Experiment
+
+einschätzen.]
